@@ -15,8 +15,8 @@ export default function Footer() {
           <div>
             <h4>Explore</h4>
             <Link href="/#about">About Us</Link>
-            <Link href="/#weddings">Weddings</Link>
-            <Link href="/#artists">Artist Management</Link>
+            <Link href="/weddings">Weddings</Link>
+            <Link href="/artists">Artist Management</Link>
             <Link href="/#gallery">Gallery</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/#contact">Contact</Link>
@@ -29,6 +29,14 @@ export default function Footer() {
             <a href="https://www.instagram.com/samridhi_films_and_television/" target="_blank" rel="noreferrer">Instagram</a>
             <a href="https://www.facebook.com/SamridhiFilmsAndTelevision" target="_blank" rel="noreferrer">Facebook</a>
             <a href="https://www.youtube.com/@SONAMUSICLIVE" target="_blank" rel="noreferrer">YouTube</a>
+          </div>
+          <div>
+            <h4>Office</h4>
+            <p style={{ fontSize: 14.5, lineHeight: 1.7 }}>
+              230/4, Main Collectorate Circle,<br />
+              Gandhi Nagar, Chittorgarh 312001,<br />
+              Rajasthan, India
+            </p>
           </div>
         </div>
         <div className="footer-bottom">

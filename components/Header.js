@@ -13,8 +13,8 @@ export default function Header() {
         <nav className={`nav-links ${open ? "open" : ""}`}>
           <Link href="/" onClick={() => setOpen(false)}>Home</Link>
           <Link href="/#about" onClick={() => setOpen(false)}>About</Link>
-          <Link href="/#weddings" onClick={() => setOpen(false)}>Weddings</Link>
-          <Link href="/#artists" onClick={() => setOpen(false)}>Artists</Link>
+          <Link href="/weddings" onClick={() => setOpen(false)}>Weddings</Link>
+          <Link href="/artists" onClick={() => setOpen(false)}>Artists</Link>
           <Link href="/#gallery" onClick={() => setOpen(false)}>Gallery</Link>
           <Link href="/blog" onClick={() => setOpen(false)}>Blog</Link>
           <Link href="/#contact" onClick={() => setOpen(false)}>Contact</Link>

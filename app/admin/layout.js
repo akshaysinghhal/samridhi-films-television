@@ -8,6 +8,9 @@ import "./admin.css";
 const NAV = [
   ["📊", "Dashboard", "/admin"],
   ["📝", "Blog Posts", "/admin/posts"],
+  ["🎞️", "Gallery & Videos", "/admin/gallery"],
+  ["💒", "Weddings", "/admin/weddings"],
+  ["🎤", "Artists", "/admin/artists"],
   ["🖼️", "Media Library", "/admin/media"],
   ["📄", "Page Content", "/admin/content"],
 ];

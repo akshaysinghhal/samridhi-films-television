@@ -10,7 +10,8 @@ Everything is free on starter plans. Total time: ~30 minutes.
    - Name: `samridhi-films`, pick a region near you (Mumbai / Singapore), set a database password (save it somewhere safe).
 2. Wait ~2 minutes for the project to be ready.
 3. Open **SQL Editor** → **New query** → paste the entire contents of `supabase/schema.sql` → **Run**.
-   - This creates the `posts`, `page_content` and `media` tables and seeds your default website text.
+   - This creates the `posts`, `page_content`, `media`, `gallery_items`, `weddings` and `artists` tables and seeds your default website text.
+   - Already ran it before? Just run `supabase/migration-002.sql` instead — it adds only the new tables.
 4. Go to **Project Settings → API** and copy:
    - `Project URL` → `NEXT_PUBLIC_SUPABASE_URL`
    - `anon public` key → `NEXT_PUBLIC_SUPABASE_ANON_KEY`
