@@ -198,7 +198,6 @@ export default async function Home() {
             </div>
             <div className="team-card">
               <img src="/images/dj-concert.jpg" alt="Rajkumari Chouhan" />
-              <div className="team-placeholder">RC</div>
               <div className="body">
                 <div className="role">Finance &amp; Choreography</div>
                 <h3>Rajkumari Chouhan</h3>
